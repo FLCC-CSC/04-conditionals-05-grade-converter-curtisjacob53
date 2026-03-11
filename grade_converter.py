@@ -1,8 +1,8 @@
 # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Jacob Jackson
+# DATE: 03/10/2026
+# BRIEF DESCRIPTION: Grade Converter 
 
 
 
@@ -17,17 +17,17 @@
 
 print('===== Grade Converter =====')
 
-percent = int(input('Enter a numerical grade (1-100): '))
+grade = int(input('Enter a numerical grade (1-100): '))
 
-if percent > 100:
+if grade > 100:
     print('A+')
-elif percent >= 90:
+elif grade >= 90:
     print('A')
-elif percent >= 80:
+elif grade >= 80:
     print('B')
-elif percent >= 70:
+elif grade >= 70:
     print('C')
-elif percent >= 65:
+elif grade >= 65:
     print('D')
 else:
     print('F')
@@ -83,7 +83,7 @@ D
 '''
 
 1. What is something you would tell a future student to be careful about when
-   doing this lab?
+   doing this lab? using percentage instead of grade. 
 
 
 
